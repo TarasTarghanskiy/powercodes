@@ -1,0 +1,55 @@
+@import url('header.css');
+@import url('footer.css');
+
+p {
+    font-size: 16px;
+}
+
+.title {
+    font-size: var(--title-font-size);
+}
+
+main {
+    flex: 1;
+    margin-top: 60px;
+    margin-bottom: 40px;
+    padding: 20px;
+}
+
+:root {
+    --title-font-size: 65px;
+}
+
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    min-height: 100vh;
+    font-family: Hack, monospace;
+}
+
+div {
+    color: #727272;
+    text-align: center;
+}
+
+
+.container {
+    padding: 20px;
+    max-width: 800px;
+    margin: auto;
+}
+
+.recipe-header {
+    color: #5a5a5a;
+    text-align: left;
+    margin-bottom: 10px;
+}
