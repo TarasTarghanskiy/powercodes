@@ -1,0 +1,29 @@
+.contact-container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 30px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+h1 {
+    text-align: center;
+    color: #0077b6;
+}
+
+.contact-details {
+    justify-content: left;
+    margin-bottom: 30px;
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+.contact-details a {
+    color: #0077b6;
+    text-decoration: none;
+}
+
+.contact-details p {
+    justify-content: left;
+    display: flex;
+}
